@@ -136,7 +136,7 @@ left: 0px; width: 100%; height: 100%; margin: 0px; display: flex;
 }
     
                      if (kahoot.roundAnswers) {
-                      document.querySelector('[data-functional-selector="answer-' + questionChoices.indexOf(correctAnswer) + '"]').style.borderRadius = '30px';
+                      document.querySelector('[data-functional-selector="answer-' + questionChoices.indexOf(correctAnswer) + '"]').style.borderRadius = '100px';
                    }
                
           } catch (a) {
